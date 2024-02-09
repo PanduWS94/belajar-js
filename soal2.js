@@ -5,4 +5,4 @@ productBin.data.forEach(item => {
         totalQuantity += item.quantity;
     }
 });
-console.log('Total quantity untuk productCode FBR00040101 (FloBrand-DressBSPink) adalah:', totalQuantity);
+console.log('Total quantity untuk productCode FBR00040101 adalah:', totalQuantity);
