@@ -23,8 +23,8 @@ function programBerjalan() {
 
     while (isRunning) {
         console.log('\nPilihan:');
-        console.log('1. List-id untuk "productId"');
-        console.log('2. Total untuk "totalQuantity"');
+        console.log('1. List-id dari "productId"');
+        console.log('2. Total dari "totalQuantity"');
 
         const choice = prompt('Masukkan pilihan Anda (1/2), type "close" untuk keluar: ');
 
@@ -37,10 +37,10 @@ function programBerjalan() {
                 break;
             case 'close':
                 isRunning = false;
-                console.log('Terima kasih!');
+                console.log('Terima kasih sudah menggunakan aplikasi saya!');
                 break;
             default:
-                console.log('Pilihan tidak valid.');
+                console.log('Pilihan tidak valid, coba kembali.');
         }
     }
 }
